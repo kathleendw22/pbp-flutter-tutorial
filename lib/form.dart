@@ -256,6 +256,9 @@ class _MyFormPageState extends State<MyFormPage> {
                                   Center(
                                     child: Text('Umur: ' + umur.toString()),
                                   ),
+                                  Center(
+                                    child: Text('Kelas: PBP ' + kelasPBP),
+                                  ),
                                   SizedBox(height: 20),
                                   // TODO: Munculkan informasi yang didapat dari form
                                   TextButton(
